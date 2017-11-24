@@ -1,0 +1,14 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: false
+  freemarker:
+    cache: false
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+    favicon:
+      enabled: true
